@@ -1,0 +1,47 @@
+#Comment
+
+#Single Value
+name: Saurabh
+fullName: "Saurabh's Kumar"
+age: 25
+profession: "Software developer"
+
+#List(array)
+#Enter and double space(not tab)
+subject:
+  - english
+  - hindi
+  - math
+
+#Other way to write list
+subjects: [english, hindi, math]
+
+#dictionary(Object in jS)
+#Enter and double space(not tab)
+marks:
+  english: 70
+  hindi: 80
+  math: 99
+
+#Otherway to Write dictionary
+marksDetail: { english:80, hindi:90, math:98 }
+
+#combining all List and dictionary
+
+studentlist:
+  student1:
+    name: "Ram Kumar"
+    age: 15
+    address: "Patna, Bihar"
+    subject:
+      - english
+      - hindi
+      - math
+  student2:
+    name: "Shyam Kumar"
+    age: 18
+    address: "Delhi, Delhi"
+    subject:
+      - hindi
+      - math
+      - history
